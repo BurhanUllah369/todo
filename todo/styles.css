@@ -110,3 +110,44 @@ li i:hover {
     color: white;
     font-size: 14px;
 }
+
+@media screen and (max-width: 1300px) {
+    .wrapper {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background-color: white;
+    }
+
+    .wrapper {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
